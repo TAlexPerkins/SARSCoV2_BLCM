@@ -1,16 +1,9 @@
 ## Load packages
 if(!require(pacman)){install.packages('pacman'); library(pacman)}
-p_load(tidyverse,
-       ## incidence,
-       ## plotrix,
-       ## distr,
-       ## data.table,
-       ## viridis,
-       surveillance,
-       ## BayesianTools,
-       ## grDevices,
-       ## plotfunctions
-       )
+p_load(incidence,
+       distr,
+       data.table,
+       surveillance)
 
 ## Load data and organize
 covid.data <- fread("./COVID_Surveillance_Impact_20200810-20201204.csv")
