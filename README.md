@@ -19,6 +19,10 @@ Code for this analysis was written and executed in the R programming language. I
 
 `simulation_analysis.R` contains all code used in the analysis of simulated data.
 
+`age_dists.R` contains all code to generate the age distribution histogram.
+
+`campus_testing_prevalence.R` contains all code used in the analysis of simulated data.to generate the estimated prevalence time-series.
+
 
 ### Outputs
 
