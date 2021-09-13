@@ -54,7 +54,7 @@ sensitivity <- fread("./grassly_pcr_sensitivity_empirical.csv")
 sensitivity[,sensitivity:=sensitivity/100]
 prev <- rep(0,length(n.exp.tot))
 for (ii in 2:length(prev)){
-    prev[ii] <- sum(n.exp[(ii-1):max(1,ii-length(sensitivity$sensitivity))]*sensitivity$sensitivity[1:min(length(sensitivity$sensitivity),ii-1)])
+    prev[ii] <- sum(n.exp.tot[(ii-1):max(1,ii-length(sensitivity$sensitivity))]*sensitivity$sensitivity[1:min(length(sensitivity$sensitivity),ii-1)])
 }
 
 ## Write to file
