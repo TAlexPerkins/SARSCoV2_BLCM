@@ -3,7 +3,7 @@ SARSCoV2_BLCM
 
 This repository contains code used in the following preprint.
 
-Perkins TA, Stephens M, Alvarez Barrios W, Cavany SM, Rulli L, Pfrender ME. (2021) **Performance of three molecular tests for SARS-CoV-2 on a university campus estimated jointly with Bayesian latent class modeling**. *medRxiv* doi:. [url](url)
+Perkins TA, Stephens M, Alvarez Barrios W, Cavany SM, Rulli L, Pfrender ME. (2021) **Performance of three molecular tests for SARS-CoV-2 on a university campus estimated jointly with Bayesian latent class modeling**. *medRxiv* doi:. [url](https://doi.org/10.1101/2021.07.31.21261425)
 
 
 ### Data
@@ -21,7 +21,7 @@ Code for this analysis was written and executed in the R programming language. I
 
 `age_dists.R` contains all code to generate the age distribution histogram.
 
-`campus_testing_prevalence.R` contains all code used in the analysis of simulated data.to generate the estimated prevalence time-series.
+`campus_testing_prevalence.R` contains all code to generate the estimated prevalence time-series.
 
 
 ### Outputs
